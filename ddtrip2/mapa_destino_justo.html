@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6a0eb50db4e00d00e7c15086f05a36e6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6a0eb50db4e00d00e7c15086f05a36e6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6a0eb50db4e00d00e7c15086f05a36e6 = L.map(
+                "map_6a0eb50db4e00d00e7c15086f05a36e6",
+                {
+                    center: [-23.587515633333332, -46.66782004444445],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_914f4e29e10662818b8a5e4fda5bd3b9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_914f4e29e10662818b8a5e4fda5bd3b9.addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+            var marker_00e4e1f8f2c16861ff880bc825f21b63 = L.marker(
+                [-23.5964988, -46.7178446],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_8b1cebb91aba51f3e90caecf3c8cc01c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b71ca0f5e5f563d0cfc48791116f37c8 = $(`<div id="html_b71ca0f5e5f563d0cfc48791116f37c8" style="width: 100.0%; height: 100.0%;">Ale — Morumbi</div>`)[0];
+                popup_8b1cebb91aba51f3e90caecf3c8cc01c.setContent(html_b71ca0f5e5f563d0cfc48791116f37c8);
+            
+        
+
+        marker_00e4e1f8f2c16861ff880bc825f21b63.bindPopup(popup_8b1cebb91aba51f3e90caecf3c8cc01c)
+        ;
+
+        
+    
+    
+            marker_00e4e1f8f2c16861ff880bc825f21b63.bindTooltip(
+                `<div>
+                     Ale
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7f9a0dddd1dc51ee9c06be0cfdbd16fb = L.marker(
+                [-23.5964988, -46.7178446],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_634fee2ac6a9bac0b0009b7704440095 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34bb68abe02d813e0c1ef90d7ebdb741 = $(`<div id="html_34bb68abe02d813e0c1ef90d7ebdb741" style="width: 100.0%; height: 100.0%;">Fracassi — Morumbi</div>`)[0];
+                popup_634fee2ac6a9bac0b0009b7704440095.setContent(html_34bb68abe02d813e0c1ef90d7ebdb741);
+            
+        
+
+        marker_7f9a0dddd1dc51ee9c06be0cfdbd16fb.bindPopup(popup_634fee2ac6a9bac0b0009b7704440095)
+        ;
+
+        
+    
+    
+            marker_7f9a0dddd1dc51ee9c06be0cfdbd16fb.bindTooltip(
+                `<div>
+                     Fracassi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_44bc1ece8bba44c0839e69260d196416 = L.marker(
+                [-23.5940278, -46.6842193],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_cc09cf7b6f37a666bfb91b9deed366ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b061ab8d86ae40111906b4242ae4718e = $(`<div id="html_b061ab8d86ae40111906b4242ae4718e" style="width: 100.0%; height: 100.0%;">Bá — Vila Olímpia</div>`)[0];
+                popup_cc09cf7b6f37a666bfb91b9deed366ef.setContent(html_b061ab8d86ae40111906b4242ae4718e);
+            
+        
+
+        marker_44bc1ece8bba44c0839e69260d196416.bindPopup(popup_cc09cf7b6f37a666bfb91b9deed366ef)
+        ;
+
+        
+    
+    
+            marker_44bc1ece8bba44c0839e69260d196416.bindTooltip(
+                `<div>
+                     Bá
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4642c4e73e543ec2d402de4d3eff9884 = L.marker(
+                [-23.5892726, -46.6061621],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_f859d6421f663caef34fa2899ccbfa4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36422e225b29534de2ba1c947f6fea4c = $(`<div id="html_36422e225b29534de2ba1c947f6fea4c" style="width: 100.0%; height: 100.0%;">Bi Finotti — Ipiranga</div>`)[0];
+                popup_f859d6421f663caef34fa2899ccbfa4f.setContent(html_36422e225b29534de2ba1c947f6fea4c);
+            
+        
+
+        marker_4642c4e73e543ec2d402de4d3eff9884.bindPopup(popup_f859d6421f663caef34fa2899ccbfa4f)
+        ;
+
+        
+    
+    
+            marker_4642c4e73e543ec2d402de4d3eff9884.bindTooltip(
+                `<div>
+                     Bi Finotti
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d71923c1b71219bcf0081a0669278a7b = L.marker(
+                [-23.5940278, -46.6842193],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_4dbc25647c2fba6d451cb0ce45ff1211 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fe61ba8ac033cea41d5cb08aca3fc95 = $(`<div id="html_7fe61ba8ac033cea41d5cb08aca3fc95" style="width: 100.0%; height: 100.0%;">Bibs Oliveira — Vila Olímpia</div>`)[0];
+                popup_4dbc25647c2fba6d451cb0ce45ff1211.setContent(html_7fe61ba8ac033cea41d5cb08aca3fc95);
+            
+        
+
+        marker_d71923c1b71219bcf0081a0669278a7b.bindPopup(popup_4dbc25647c2fba6d451cb0ce45ff1211)
+        ;
+
+        
+    
+    
+            marker_d71923c1b71219bcf0081a0669278a7b.bindTooltip(
+                `<div>
+                     Bibs Oliveira
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f06bc32981ea8316dbef19439f5d8d2a = L.marker(
+                [-23.5843807, -46.6784441],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_fd690bfd43371d1da519d4afa1cf8953 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81f03b57aea3e7ab8bcc1d9661b8b3f9 = $(`<div id="html_81f03b57aea3e7ab8bcc1d9661b8b3f9" style="width: 100.0%; height: 100.0%;">Bru — Itaim Bibi</div>`)[0];
+                popup_fd690bfd43371d1da519d4afa1cf8953.setContent(html_81f03b57aea3e7ab8bcc1d9661b8b3f9);
+            
+        
+
+        marker_f06bc32981ea8316dbef19439f5d8d2a.bindPopup(popup_fd690bfd43371d1da519d4afa1cf8953)
+        ;
+
+        
+    
+    
+            marker_f06bc32981ea8316dbef19439f5d8d2a.bindTooltip(
+                `<div>
+                     Bru
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9257943cb0591e8ec6cdedf94324750c = L.marker(
+                [-23.5872, -46.6712],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_325f4327ba9b5a8a25c09302fabb53ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ec9e882890ffba7e56652a490beaf68 = $(`<div id="html_8ec9e882890ffba7e56652a490beaf68" style="width: 100.0%; height: 100.0%;">Dogo — Vila Nova Conceição</div>`)[0];
+                popup_325f4327ba9b5a8a25c09302fabb53ed.setContent(html_8ec9e882890ffba7e56652a490beaf68);
+            
+        
+
+        marker_9257943cb0591e8ec6cdedf94324750c.bindPopup(popup_325f4327ba9b5a8a25c09302fabb53ed)
+        ;
+
+        
+    
+    
+            marker_9257943cb0591e8ec6cdedf94324750c.bindTooltip(
+                `<div>
+                     Dogo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c620d68a42d6310a2394a5e1d871d8af = L.marker(
+                [-23.5940278, -46.6842193],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_c89997b0cc3c943a19a9003a5bc5e632 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44f30de9411a640ebd6906cd1ef69343 = $(`<div id="html_44f30de9411a640ebd6906cd1ef69343" style="width: 100.0%; height: 100.0%;">Edu — Vila Olímpia</div>`)[0];
+                popup_c89997b0cc3c943a19a9003a5bc5e632.setContent(html_44f30de9411a640ebd6906cd1ef69343);
+            
+        
+
+        marker_c620d68a42d6310a2394a5e1d871d8af.bindPopup(popup_c89997b0cc3c943a19a9003a5bc5e632)
+        ;
+
+        
+    
+    
+            marker_c620d68a42d6310a2394a5e1d871d8af.bindTooltip(
+                `<div>
+                     Edu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7387fafa9d8c3755c1cc7b53db0fcb11 = L.marker(
+                [-23.5872, -46.6712],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_de11c94dd96bb82d78c788508fc4f7f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_016890471079bc2a2bc185476a404a1f = $(`<div id="html_016890471079bc2a2bc185476a404a1f" style="width: 100.0%; height: 100.0%;">Faia — Vila Nova Conceição</div>`)[0];
+                popup_de11c94dd96bb82d78c788508fc4f7f8.setContent(html_016890471079bc2a2bc185476a404a1f);
+            
+        
+
+        marker_7387fafa9d8c3755c1cc7b53db0fcb11.bindPopup(popup_de11c94dd96bb82d78c788508fc4f7f8)
+        ;
+
+        
+    
+    
+            marker_7387fafa9d8c3755c1cc7b53db0fcb11.bindTooltip(
+                `<div>
+                     Faia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_07bdd1b2cf163b0069ef4da20616eaa1 = L.marker(
+                [-23.5940278, -46.6842193],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_9abc4b9691fc560c4f0de8b0a62915f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b49b3ccb9af624bccacc4db362f878b5 = $(`<div id="html_b49b3ccb9af624bccacc4db362f878b5" style="width: 100.0%; height: 100.0%;">Gabi Di Fiori — Vila Olímpia</div>`)[0];
+                popup_9abc4b9691fc560c4f0de8b0a62915f3.setContent(html_b49b3ccb9af624bccacc4db362f878b5);
+            
+        
+
+        marker_07bdd1b2cf163b0069ef4da20616eaa1.bindPopup(popup_9abc4b9691fc560c4f0de8b0a62915f3)
+        ;
+
+        
+    
+    
+            marker_07bdd1b2cf163b0069ef4da20616eaa1.bindTooltip(
+                `<div>
+                     Gabi Di Fiori
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_913775220d2de39f90509c1ab92a03f3 = L.marker(
+                [-23.5703, -46.6443],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_62e09cbc80221c6960b2c4d5663bc10b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_386fea548aa72f658ad22d1ae82bb36f = $(`<div id="html_386fea548aa72f658ad22d1ae82bb36f" style="width: 100.0%; height: 100.0%;">Leo Veras — Paraíso</div>`)[0];
+                popup_62e09cbc80221c6960b2c4d5663bc10b.setContent(html_386fea548aa72f658ad22d1ae82bb36f);
+            
+        
+
+        marker_913775220d2de39f90509c1ab92a03f3.bindPopup(popup_62e09cbc80221c6960b2c4d5663bc10b)
+        ;
+
+        
+    
+    
+            marker_913775220d2de39f90509c1ab92a03f3.bindTooltip(
+                `<div>
+                     Leo Veras
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_92bafa3cc58ed0c829a52af56bc4a577 = L.marker(
+                [-23.4675941, -46.5277704],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_bed0f63762a9aeb15ae515440cf55b99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07d30e30a68c11f8c6dd776fe20d471e = $(`<div id="html_07d30e30a68c11f8c6dd776fe20d471e" style="width: 100.0%; height: 100.0%;">Math Belarmino — Guarulhos</div>`)[0];
+                popup_bed0f63762a9aeb15ae515440cf55b99.setContent(html_07d30e30a68c11f8c6dd776fe20d471e);
+            
+        
+
+        marker_92bafa3cc58ed0c829a52af56bc4a577.bindPopup(popup_bed0f63762a9aeb15ae515440cf55b99)
+        ;
+
+        
+    
+    
+            marker_92bafa3cc58ed0c829a52af56bc4a577.bindTooltip(
+                `<div>
+                     Math Belarmino
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3fd9105229cf02cc42fc6cf85c098bc5 = L.marker(
+                [-23.6305, -46.7185],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_3c51d1f45cccbc9ef458c0ca08222333 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bcd91a76f3cadb3a8a2374e41a1b3e9 = $(`<div id="html_3bcd91a76f3cadb3a8a2374e41a1b3e9" style="width: 100.0%; height: 100.0%;">Pedrão — Panamby</div>`)[0];
+                popup_3c51d1f45cccbc9ef458c0ca08222333.setContent(html_3bcd91a76f3cadb3a8a2374e41a1b3e9);
+            
+        
+
+        marker_3fd9105229cf02cc42fc6cf85c098bc5.bindPopup(popup_3c51d1f45cccbc9ef458c0ca08222333)
+        ;
+
+        
+    
+    
+            marker_3fd9105229cf02cc42fc6cf85c098bc5.bindTooltip(
+                `<div>
+                     Pedrão
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8de891518f2e21ca6bb8e8bee2348ae9 = L.marker(
+                [-23.5964988, -46.7178446],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_8c31baa67b3b2e286ad8458c9afb9494 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e6986970fc69b2eb7f06e6c2259d14d = $(`<div id="html_1e6986970fc69b2eb7f06e6c2259d14d" style="width: 100.0%; height: 100.0%;">Rafa — Morumbi</div>`)[0];
+                popup_8c31baa67b3b2e286ad8458c9afb9494.setContent(html_1e6986970fc69b2eb7f06e6c2259d14d);
+            
+        
+
+        marker_8de891518f2e21ca6bb8e8bee2348ae9.bindPopup(popup_8c31baa67b3b2e286ad8458c9afb9494)
+        ;
+
+        
+    
+    
+            marker_8de891518f2e21ca6bb8e8bee2348ae9.bindTooltip(
+                `<div>
+                     Rafa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_db07f10e89b367fc1ee229c39c270a0f = L.marker(
+                [-23.5872, -46.6712],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_13d2484ae333e84812b8d7be30908385 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_337a86c386fd29907d888dc52932d63d = $(`<div id="html_337a86c386fd29907d888dc52932d63d" style="width: 100.0%; height: 100.0%;">Valen — Vila Nova Conceição</div>`)[0];
+                popup_13d2484ae333e84812b8d7be30908385.setContent(html_337a86c386fd29907d888dc52932d63d);
+            
+        
+
+        marker_db07f10e89b367fc1ee229c39c270a0f.bindPopup(popup_13d2484ae333e84812b8d7be30908385)
+        ;
+
+        
+    
+    
+            marker_db07f10e89b367fc1ee229c39c270a0f.bindTooltip(
+                `<div>
+                     Valen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_74fb6c94cb37642454262717e485686d = L.marker(
+                [-23.6229, -46.5548],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_726e42f03a19ef5c3100acb0583680d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf5b34c275c8386f114c36c80ba298ab = $(`<div id="html_cf5b34c275c8386f114c36c80ba298ab" style="width: 100.0%; height: 100.0%;">Rennan — São Caetano do Sul</div>`)[0];
+                popup_726e42f03a19ef5c3100acb0583680d1.setContent(html_cf5b34c275c8386f114c36c80ba298ab);
+            
+        
+
+        marker_74fb6c94cb37642454262717e485686d.bindPopup(popup_726e42f03a19ef5c3100acb0583680d1)
+        ;
+
+        
+    
+    
+            marker_74fb6c94cb37642454262717e485686d.bindTooltip(
+                `<div>
+                     Rennan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_feeebf683d32bd27f667f5f3f2096939 = L.marker(
+                [-23.5964988, -46.7178446],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_303a238809cd6d65c2f50be5cc0c667f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_373d37d4a15bd8af7c05c9355a74fe45 = $(`<div id="html_373d37d4a15bd8af7c05c9355a74fe45" style="width: 100.0%; height: 100.0%;">Ju — Morumbi</div>`)[0];
+                popup_303a238809cd6d65c2f50be5cc0c667f.setContent(html_373d37d4a15bd8af7c05c9355a74fe45);
+            
+        
+
+        marker_feeebf683d32bd27f667f5f3f2096939.bindPopup(popup_303a238809cd6d65c2f50be5cc0c667f)
+        ;
+
+        
+    
+    
+            marker_feeebf683d32bd27f667f5f3f2096939.bindTooltip(
+                `<div>
+                     Ju
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a60cc67461db751a015f913e281fe7d0 = L.marker(
+                [-23.5866276, -46.6689286],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_46e06b087685b2e3acda6351fa78b15a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5d2da89c7853dc18b28faa9907db434 = $(`<div id="html_d5d2da89c7853dc18b28faa9907db434" style="width: 100.0%; height: 100.0%;">Casa Leo Gomes — Vila Nova Conceição</div>`)[0];
+                popup_46e06b087685b2e3acda6351fa78b15a.setContent(html_d5d2da89c7853dc18b28faa9907db434);
+            
+        
+
+        marker_a60cc67461db751a015f913e281fe7d0.bindPopup(popup_46e06b087685b2e3acda6351fa78b15a)
+        ;
+
+        
+    
+    
+            marker_a60cc67461db751a015f913e281fe7d0.bindTooltip(
+                `<div>
+                     Casa Leo Gomes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dd373310f286c29a41ccca73a996d83d = L.circleMarker(
+                [-23.587515633333332, -46.66782004444445],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+        var popup_26bc170088111b0a9500bf8de7d3fa56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7f9946ab0c3dc82758838dce2921433 = $(`<div id="html_f7f9946ab0c3dc82758838dce2921433" style="width: 100.0%; height: 100.0%;">Centro aproximado do grupo (BR)</div>`)[0];
+                popup_26bc170088111b0a9500bf8de7d3fa56.setContent(html_f7f9946ab0c3dc82758838dce2921433);
+            
+        
+
+        circle_marker_dd373310f286c29a41ccca73a996d83d.bindPopup(popup_26bc170088111b0a9500bf8de7d3fa56)
+        ;
+
+        
+    
+    
+            var marker_0d377d0f970c693c2c63f227fd6467f9 = L.marker(
+                [40.7644228, -73.9923918],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+            var icon_fe8cf237845ceb8e0800f021322b2492 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08e4ceb5a72e2fdce48174cee27edd38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfb3c5efcbbe4ede0993ce3843a7075f = $(`<div id="html_bfb3c5efcbbe4ede0993ce3843a7075f" style="width: 100.0%; height: 100.0%;">Leo Gomes — NYC (dist ≈ 7693 km do centro BR)</div>`)[0];
+                popup_08e4ceb5a72e2fdce48174cee27edd38.setContent(html_bfb3c5efcbbe4ede0993ce3843a7075f);
+            
+        
+
+        marker_0d377d0f970c693c2c63f227fd6467f9.bindPopup(popup_08e4ceb5a72e2fdce48174cee27edd38)
+        ;
+
+        
+    
+    
+            marker_0d377d0f970c693c2c63f227fd6467f9.bindTooltip(
+                `<div>
+                     Leo Gomes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0d377d0f970c693c2c63f227fd6467f9.setIcon(icon_fe8cf237845ceb8e0800f021322b2492);
+            
+    
+            var marker_91affdd12405edec9cc9920ce93e6551 = L.marker(
+                [8.832332634657504, -59.00697313615481],
+                {
+}
+            ).addTo(map_6a0eb50db4e00d00e7c15086f05a36e6);
+        
+    
+            var icon_61d19c4ad7dd2559939adab9122a5e90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91cf66a231b118e7dc4d421f3d9e657b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03f3acc467d3f2c5563677b7e74dea29 = $(`<div id="html_03f3acc467d3f2c5563677b7e74dea29" style="width: 100.0%; height: 100.0%;">Ponto médio BR ↔ NYC (destino justo teórico)</div>`)[0];
+                popup_91cf66a231b118e7dc4d421f3d9e657b.setContent(html_03f3acc467d3f2c5563677b7e74dea29);
+            
+        
+
+        marker_91affdd12405edec9cc9920ce93e6551.bindPopup(popup_91cf66a231b118e7dc4d421f3d9e657b)
+        ;
+
+        
+    
+    
+            marker_91affdd12405edec9cc9920ce93e6551.bindTooltip(
+                `<div>
+                     Meio do caminho
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_91affdd12405edec9cc9920ce93e6551.setIcon(icon_61d19c4ad7dd2559939adab9122a5e90);
+            
+</script>
+</html>

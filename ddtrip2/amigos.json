@@ -1,0 +1,135 @@
+[
+  {
+    "nome": "Ale",
+    "endereco": "Morumbi",
+    "pais": "Brasil",
+    "lat": -23.5964988,
+    "lon": -46.7178446
+  },
+  {
+    "nome": "Fracassi",
+    "endereco": "Morumbi",
+    "pais": "Brasil",
+    "lat": -23.5964988,
+    "lon": -46.7178446
+  },
+  {
+    "nome": "Bá",
+    "endereco": "Vila Olímpia",
+    "pais": "Brasil",
+    "lat": -23.5940278,
+    "lon": -46.6842193
+  },
+  {
+    "nome": "Bi Finotti",
+    "endereco": "Ipiranga",
+    "pais": "Brasil",
+    "lat": -23.5892726,
+    "lon": -46.6061621
+  },
+  {
+    "nome": "Bibs Oliveira",
+    "endereco": "Vila Olímpia",
+    "pais": "Brasil",
+    "lat": -23.5940278,
+    "lon": -46.6842193
+  },
+  {
+    "nome": "Bru",
+    "endereco": "Itaim Bibi",
+    "pais": "Brasil",
+    "lat": -23.5843807,
+    "lon": -46.6784441
+  },
+  {
+    "nome": "Dogo",
+    "endereco": "Vila Nova Conceição",
+    "pais": "Brasil",
+    "lat": -23.5872000,
+    "lon": -46.6712000
+  },
+  {
+    "nome": "Edu",
+    "endereco": "Vila Olímpia",
+    "pais": "Brasil",
+    "lat": -23.5940278,
+    "lon": -46.6842193
+  },
+  {
+    "nome": "Faia",
+    "endereco": "Vila Nova Conceição",
+    "pais": "Brasil",
+    "lat": -23.5872000,
+    "lon": -46.6712000
+  },
+  {
+    "nome": "Gabi Di Fiori",
+    "endereco": "Vila Olímpia",
+    "pais": "Brasil",
+    "lat": -23.5940278,
+    "lon": -46.6842193
+  },
+  {
+    "nome": "Leo Veras",
+    "endereco": "Paraíso",
+    "pais": "Brasil",
+    "lat": -23.5703000,
+    "lon": -46.6443000
+  },
+  {
+    "nome": "Leo Gomes",
+    "endereco": "Hell's Kitchen",
+    "pais": "EUA",
+    "lat": 40.7644228,
+    "lon": -73.9923918
+  },
+  {
+    "nome": "Math Belarmino",
+    "endereco": "Guarulhos",
+    "pais": "Brasil",
+    "lat": -23.4675941,
+    "lon": -46.5277704
+  },
+  {
+    "nome": "Pedrão",
+    "endereco": "Panamby",
+    "pais": "Brasil",
+    "lat": -23.6305000,
+    "lon": -46.7185000
+  },
+  {
+    "nome": "Rafa",
+    "endereco": "Morumbi",
+    "pais": "Brasil",
+    "lat": -23.5964988,
+    "lon": -46.7178446
+  },
+  {
+    "nome": "Valen",
+    "endereco": "Vila Nova Conceição",
+    "pais": "Brasil",
+    "lat": -23.5872000,
+    "lon": -46.6712000
+  },
+  {
+    "nome": "Rennan",
+    "endereco": "São Caetano do Sul",
+    "pais": "Brasil",
+    "lat": -23.6229000,
+    "lon": -46.5548000
+  },
+  {
+    "nome": "Ju",
+    "endereco": "Morumbi",
+    "pais": "Brasil",
+    "lat": -23.5964988,
+    "lon": -46.7178446
+  },
+  {
+    "nome": "Casa Leo Gomes",
+    "endereco": "Vila Nova Conceição",
+    "pais": "Brasil",
+    "lat": -23.5866276,
+    "lon": -46.6689286
+  }
+]
